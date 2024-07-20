@@ -1,1 +1,1 @@
-cmd /c start /min powershell start-process powershell {mspaint} -windowstyle hidden
+cmd /c start /min powershell start-process powershell {$pa=$env:appdata+'\log.txt';$da=Get-Date;ac $pa $da} -windowstyle hidden
