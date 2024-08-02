@@ -1,1 +1,1 @@
-systeminfo >> "%appdata%\log.txt"
+systeminfo >> "$env:appdata\log.txt"
